@@ -8,3 +8,5 @@
  - [^1-6] -> A negated or complemented character set
 ### x|y
 - Matches either 'x' or 'y'
+### x?
+- matches the preceding item of 0 or 1 time
