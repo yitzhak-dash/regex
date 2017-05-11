@@ -22,5 +22,3 @@ echo -e ${ORANGE}5 - matches From or Date or Subject${NC}
 egrep -i '^(Subject|Date|From):.' $TEXT_FILE
 echo -e ${ORANGE}6 - should find july 4${NC}
 egrep 'July?.(fourth|4(th)?)' $TEXT_FILE
-
-
