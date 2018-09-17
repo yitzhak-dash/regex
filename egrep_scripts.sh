@@ -23,5 +23,5 @@ echo -e ${ORANGE}5 - matches From or Date or Subject${NC}
 egrep -i '^(Subject|Date|From):.' $TEXT_FILE
 echo -e ${ORANGE}6 - should find july 4, by using [?] symbol. ${NC}
 egrep 'July?.(fourth|4(th)?)' $TEXT_FILE
-echo -e ${ORANGE}7 - should find h4 html tag.${NC}
-egrep -i '<hr.*(size="[0-9]+")?.*>' $HTML_FILE
+echo -e ${ORANGE}7 - should find hr html tag with size.${NC}
+egrep -i '<hr(.+size="[0-9]+")?.*>' $HTML_FILE
